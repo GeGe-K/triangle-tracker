@@ -1,9 +1,13 @@
-var sides = [lengthA, lengthB, lengthC];
-var lengthA = sides[0]
-var lengthB = sides[1]
-var lengthC = sides[2]
-var triangle = function(lengthA, lengthB, lengthC){
-
+// var sides = [document.getElementById("lengthA").value, document.getElementById("lengthB").value, document.getElementById("lengthC").value];
+// var lengthA = sides[0]
+// var lengthB = sides[1]
+// var lengthC = sides[2]
+var triangle = function(){
+  var sides = [document.getElementById("lengthA").value, document.getElementById("lengthB").value, document.getElementById("lengthC").value];
+  var lengthA = sides[0]
+  var lengthB = sides[1]
+  var lengthC = sides[2]
+  // console.log(lengthA)
   if (isNaN(lengthA) || isNaN(lengthB) || isNaN(lengthC)) {
     alert("All sides MUST be numerical.");
   } else if (lengthA >= (lengthB + lengthC) || lengthB >= (lengthC + lengthA) || lengthC >= (lengthA + lengthB)) {
@@ -15,6 +19,6 @@ var triangle = function(lengthA, lengthB, lengthC){
   } else if (lengthA!=lengthB && lengthA!=lengthC) {
     return "This is a Scalene triangle.";
   } else {
-    return sides;
+    triangle("text_where").innerHTML = sides;
   }
 };
