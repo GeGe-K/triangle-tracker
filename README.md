@@ -6,12 +6,12 @@ This application tracks the sides of a triangle then determines which triangle i
 ### Link to deployed site
 https://gege-k.github.io/triangle-tracker/
 ## Table of Content
-1. Description
-2. Specifications
-3. Setup and Installation
-4. Bugs
-5. Support and Contact Details
-6. License
+1. [Description](#description)
+2. [Specifications](#specifications)
+3. [Installation](#installation)
+4. [Bugs](#bugs)
+5. [Support](#support)
+6. [License](#license)
 ## Specifications
  The program recognizes all sides are equal
 #### Input: 2,2,2
@@ -25,11 +25,11 @@ The program recognizes no sides are equal
 The program recognizes the sum of the lengths of any two sides of a triangle is less than or equal to the length of the third side.
 #### Input: 1,2,3
 #### Output: NOT a triangle.
-## Setup and Installation
+## Installation
 ### Installation Requirements 
 Git
 ### Installation instruction
-Git clone
+Git clone the repo
 ### Technologies used
 HTML
 CSS
