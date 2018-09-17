@@ -16,7 +16,7 @@ var triangle = function(){
    alert("This is not a valid triangle!");
  } else if (lengthA===lengthB || lengthB===lengthC || lengthC===lengthB) {
     // return "This is an Isosceles trisngle.";
-      document.getElementById('text_where').innerHTML = "This is an Isosceles trisngle.";
+      document.getElementById('text_where').innerHTML = "This is an Isosceles triangle.";
   } else if (lengthA!=lengthB && lengthA!=lengthC && lengthB!=lengthC) {
     // return "This is a Scalene triangle.";
     document.getElementById('text_where').innerHTML = "This is a Scalene triangle.";
