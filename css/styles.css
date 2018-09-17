@@ -14,8 +14,8 @@ html{
 h1{
   padding-top: 50px;
 }
-#about{
-  padding:auto;
+p{
+  padding:30px;
 }
 img{
     max-width: 100%;
