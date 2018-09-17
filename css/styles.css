@@ -21,3 +21,8 @@ img{
     max-width: 100%;
     height: auto;
 }
+#text_where{
+  color: red;
+  font-style: italic;
+  font-weight: bolder;
+}
