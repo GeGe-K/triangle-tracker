@@ -9,4 +9,8 @@ html{
   margin-right: 200px;
   background-color: #FFF;
   box-sizing: border-box;
+  padding: auto;
+}
+h1{
+  padding-top: 50px;
 }
