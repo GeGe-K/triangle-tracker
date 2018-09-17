@@ -1,1 +1,10 @@
+html{
+  background-color: #72727e;
+}
+.container{
+  margin-left: 500px;
+  margin-right: 500px;
+  background-color: #FFF;
+  box-sizing: border-box;
 
+}

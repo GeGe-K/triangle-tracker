@@ -17,11 +17,11 @@ var triangle = function(){
   } else if (lengthA===lengthB || lengthB===lengthC || lengthC===lengthB) {
     // return "This is an Isosceles trisngle.";
       document.getElementById('text_where').innerHTML = "This is an Isosceles trisngle.";
-  } else if (lengthA!=lengthB && lengthA!=lengthC) {
+  } else if (lengthA!=lengthB && lengthA!=lengthC && lengthB!=lengthC) {
     // return "This is a Scalene triangle.";
     document.getElementById('text_where').innerHTML = "This is a Scalene triangle.";
-  } else if (lengthA >= (lengthB + lengthC) || lengthB >= (lengthC + lengthA) || lengthC >= (lengthA + lengthB)) {
-   alert("This is not a valid triangle!");
+    // } else if (lengthA >= (lengthB + lengthC) || lengthB >= (lengthC + lengthA) || lengthC >= (lengthA + lengthB)) {
+    //  alert("This is not a valid triangle!");
   } else {
     // return sides;
     document.getElementById('text_where').innerHTML = sides
