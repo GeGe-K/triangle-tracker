@@ -3,7 +3,7 @@ html{
   font-family: cursive;
   font-size: 1.3em;
   text-align: center;
-  background-image: url("/home/moringaschool/Documents/moringa-school-projects/moringa-projects/triangle-tracker/image/triangles4k.jpg");
+  background-image: url("../image/triangles4k.jpg");
   background-size: cover;
   background-repeat: no-repeat;
 }
