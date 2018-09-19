@@ -21,20 +21,19 @@ https://gege-k.github.io/triangle-tracker/
 |Check if it is not a triangle  |1, 2, 3 |This is NOT a triangle         |
 ## Installation
 ### Installation Requirements
-```
-Git
-```
-Web browser
+  git
+  terminal
+  Web browser
 ### Installation instruction
 Run the command  ```git clone https://github.com/GeGe-K/triangle-tracker.git ```
 or
 Download it from the repo ```https://github.com/GeGe-K/triangle-tracker ```
 
 ```
-### Extract the file
-### Navigate to the file
-### Open the index.html in your browser
-### Enjoy the application
+  Extract the file
+  Navigate to the file
+  Open the index.html in your browser
+  Enjoy the application
 ```
 ### Technologies used
 HTML
