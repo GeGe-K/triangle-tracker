@@ -7,24 +7,18 @@ This application tracks the sides of a triangle then determines which triangle i
 https://gege-k.github.io/triangle-tracker/
 ## Table of Content
 1. [Description](#description)
-2. [Specifications](#specifications)
+2. [Behaviour](#behaviour)
 3. [Installation](#installation)
 4. [Bugs](#bugs)
 5. [Support](#support)
 6. [License](#license)
-## Specifications
- The program recognizes all sides are equal
-#### Input: 2,2,2
-#### Output: Equilateral triangle.
-The program recognizes two sides are equal
-#### Input: 4,4,5
-#### Output: Isosceles triangle.
-The program recognizes no sides are equal
-### Input: 4,5,6
-#### Output: Scalene triangle.
-The program recognizes the sum of the lengths of any two sides of a triangle is less than or equal to the length of the third side.
-#### Input: 1,2,3
-#### Output: NOT a triangle.
+## Behaviours
+|Behaviour   | Input     |  Output |
+|------------|:---------:|---------------------------------:|
+|Check if triangle is equilateral| 2, 2, 2|This is an equilateral triangle|
+|Check if triangle is isosceles |3, 6, 6 |This is an isosceles triangle  |
+|Check if triangle is scalene   |6, 5, 4 |This is a scalene triangle     |
+|Check if it is not a triangle  |1, 2, 3 |This is NOT a triangle         |
 ## Installation
 ### Installation Requirements 
 Git
