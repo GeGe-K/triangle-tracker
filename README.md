@@ -39,7 +39,6 @@ Download it from the repo ```https://github.com/GeGe-K/triangle-tracker ```
 HTML
 CSS
 Javascript
-JQuery
 ## Bugs
 Currently the application runs perfectly fine without any issues.
 ## Support and Contact Details
