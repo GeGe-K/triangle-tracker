@@ -20,19 +20,31 @@ https://gege-k.github.io/triangle-tracker/
 |Check if triangle is scalene   |6, 5, 4 |This is a scalene triangle     |
 |Check if it is not a triangle  |1, 2, 3 |This is NOT a triangle         |
 ## Installation
-### Installation Requirements 
+### Installation Requirements
+```
 Git
+```
+Web browser
 ### Installation instruction
-Git clone the repo
+Run the command  ```git clone https://github.com/GeGe-K/triangle-tracker.git ```
+or
+Download it from the repo ```https://github.com/GeGe-K/triangle-tracker ```
+
+```
+### Extract the file
+### Navigate to the file
+### Open the index.html in your browser
+### Enjoy the application
+```
 ### Technologies used
 HTML
 CSS
 Javascript
-Github
+JQuery
 ## Bugs
-Create an issue mentioning the bugs you have found.
+Currently the application runs perfectly fine without any issues.
 ## Support and Contact Details
-github.com/GeGe-K
+If you encounter any issues, please reach out to gloriagivondo@gmail.com
 ### License
 The content of this site is license under the MIT license
 Copyright (c) 2018 **Gloria**
